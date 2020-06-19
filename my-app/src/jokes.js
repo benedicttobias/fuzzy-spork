@@ -1,9 +1,10 @@
-import React, {useState, useEffect, useContext}  from 'react';
+import React, {useState, useEffect}  from 'react';
 
 const Jokes = props => {
     const [joke, setJoke] = useState(null);
     const [isLame, setIsLame] = useState(true);
 
+    // todo: create custom hook for http? useHttp?
     const fetchJoke = () => {
         fetch('https://api.chucknorris.io/jokes/random')
         .then(response => {
