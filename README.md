@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/benedicttobias0458/benedicttobias/_apis/build/status/benedicttobias.fuzzy-spork?branchName=master)](https://dev.azure.com/benedicttobias0458/benedicttobias/_build/latest?definitionId=2&branchName=master)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
