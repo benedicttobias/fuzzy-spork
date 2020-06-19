@@ -31,7 +31,7 @@ const Jokes = props => {
                 <h1>{joke}</h1>
             </div>
             <div>
-                <button variant="primary" onClick={() => setIsLame(true)}>Lame!</button>
+                <button class="btn btn-primary" onClick={() => setIsLame(true)}>Lame!</button>
             </div>
         </>
     );    
